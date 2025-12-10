@@ -325,7 +325,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fill, 260px); /* Largeur fixe */
   justify-content: center; /* Centre les colonnes */
-  gap: 2rem;
+  gap: 1rem;
   padding: 1rem;
 }
 
@@ -544,6 +544,9 @@ section {
 .contact div .form .des p{
 	margin-left:20px;
 	color:gray;
+}
+.contact div .form form textarea{
+	width:90%;
 }
 .contact div div .ce{
 	display:flex;
